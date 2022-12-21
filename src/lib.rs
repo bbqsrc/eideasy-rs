@@ -100,13 +100,6 @@ async fn create_queue(
         .await?;
 
     println!("{:#?}", res);
-    // {
-    //     "client_id": "{{client_id}}",
-    //     "secret": "{{secret}}",
-    //     "has_management_page": true,
-    //     "doc_id":"{{doc_id}}",
-    //     "owner_email": "test@gmail.com"
-    // }
     Ok(())
 }
 
